@@ -10,4 +10,10 @@
 
 @interface ViewController : UIViewController
 
+@property (nonatomic) CGPoint startPoint;
+@property (retain, nonatomic) IBOutlet UILabel *label;
+@property (retain, nonatomic) IBOutlet UILabel *label2;
+@property (retain, nonatomic) IBOutlet UIImageView *imageView;
+
+
 @end
